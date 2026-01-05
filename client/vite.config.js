@@ -17,7 +17,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   server: {
     proxy: {
-      "/api": "http://localhost:5000"
+      "/api": "https://pulse-backend-hlp8.onrender.com"
     }
   },
   plugins: [
