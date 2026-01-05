@@ -1,0 +1,10 @@
+
+# build artifacts
+/dist
+/node_modules
+
+# development artifacts
+/.env
+
+# misc
+.DS_Store
