@@ -1,0 +1,170 @@
+[
+  {
+    "_id": "69480987cd4393c7e4e56f47",
+    "key": "Visualization",
+    "target": "hi",
+    "translated": "VISUALIZATION",
+    "__v": 0
+  },
+  {
+    "_id": "69480989cd4393c7e4e56f4a",
+    "key": "Data Entry",
+    "target": "hi",
+    "translated": "आँकड़ा प्रविष्टि",
+    "__v": 0
+  },
+  {
+    "_id": "6948098bcd4393c7e4e56f4d",
+    "key": "Select Attributes",
+    "target": "hi",
+    "translated": "विशेषताएँ चुनें",
+    "__v": 0
+  },
+  {
+    "_id": "6948098ecd4393c7e4e56f50",
+    "key": "Data Visualization",
+    "target": "hi",
+    "translated": "डेटा विज़ुअलाइज़ेशन",
+    "__v": 0
+  },
+  {
+    "_id": "6948098fcd4393c7e4e56f52",
+    "key": "Apply Filter",
+    "target": "hi",
+    "translated": "फ़िल्टर लागू करें",
+    "__v": 0
+  },
+  {
+    "_id": "69480992cd4393c7e4e56f55",
+    "key": "No Data",
+    "target": "hi",
+    "translated": "कोई डेटा नहीं",
+    "__v": 0
+  },
+  {
+    "_id": "69480995cd4393c7e4e56f59",
+    "key": "Visualization",
+    "target": "mr",
+    "translated": "व्हिज्युअलायझेशन",
+    "__v": 0
+  },
+  {
+    "_id": "69480995cd4393c7e4e56f5c",
+    "key": "Data Entry",
+    "target": "mr",
+    "translated": "डेटा एंट्री",
+    "__v": 0
+  },
+  {
+    "_id": "69480998cd4393c7e4e56f5f",
+    "key": "Select Attributes",
+    "target": "mr",
+    "translated": "विशेषता निवडा",
+    "__v": 0
+  },
+  {
+    "_id": "69480999cd4393c7e4e56f62",
+    "key": "Data Visualization",
+    "target": "mr",
+    "translated": "डेटा व्हिज्युअलायझेशन",
+    "__v": 0
+  },
+  {
+    "_id": "6948099ccd4393c7e4e56f64",
+    "key": "Apply Filter",
+    "target": "mr",
+    "translated": "फिल्टर लागू करा",
+    "__v": 0
+  },
+  {
+    "_id": "6948099ecd4393c7e4e56f67",
+    "key": "No Data",
+    "target": "mr",
+    "translated": "डेटा नाही",
+    "__v": 0
+  },
+  {
+    "_id": "694809a7cd4393c7e4e56f6b",
+    "key": "Visualization",
+    "target": "bn",
+    "translated": "ভিজ্যুয়ালাইজেশন",
+    "__v": 0
+  },
+  {
+    "_id": "694809a9cd4393c7e4e56f6e",
+    "key": "Data Entry",
+    "target": "bn",
+    "translated": "ডাটা এন্ট্রি",
+    "__v": 0
+  },
+  {
+    "_id": "694809aacd4393c7e4e56f71",
+    "key": "Select Attributes",
+    "target": "bn",
+    "translated": "গুণাবলী নির্বাচন করুন",
+    "__v": 0
+  },
+  {
+    "_id": "694809accd4393c7e4e56f74",
+    "key": "Data Visualization",
+    "target": "bn",
+    "translated": "ডেটা ভিজ্যুয়ালাইজেশন",
+    "__v": 0
+  },
+  {
+    "_id": "694809adcd4393c7e4e56f76",
+    "key": "Apply Filter",
+    "target": "bn",
+    "translated": "ফিল্টার প্রয়োগ করুন",
+    "__v": 0
+  },
+  {
+    "_id": "694809b0cd4393c7e4e56f79",
+    "key": "No Data",
+    "target": "bn",
+    "translated": "কোন ডেটা নেই",
+    "__v": 0
+  },
+  {
+    "_id": "694809b8cd4393c7e4e56f7d",
+    "key": "Visualization",
+    "target": "kn",
+    "translated": "ದೃಶ್ಯೀಕರಣ",
+    "__v": 0
+  },
+  {
+    "_id": "694809bacd4393c7e4e56f80",
+    "key": "Data Entry",
+    "target": "kn",
+    "translated": "ಡೇಟಾ ಎಂಟ್ರಿ",
+    "__v": 0
+  },
+  {
+    "_id": "694809bccd4393c7e4e56f83",
+    "key": "Select Attributes",
+    "target": "kn",
+    "translated": "ಗುಣಲಕ್ಷಣಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+    "__v": 0
+  },
+  {
+    "_id": "694809bdcd4393c7e4e56f86",
+    "key": "Data Visualization",
+    "target": "kn",
+    "translated": "ಡೇಟಾ ದೃಶ್ಯೀಕರಣ",
+    "__v": 0
+  },
+  {
+    "_id": "694809bfcd4393c7e4e56f88",
+    "key": "Apply Filter",
+    "target": "kn",
+    "translated": "ಫಿಲ್ಟರ್ ಅನ್ನು ಅನ್ವಯಿಸಿ",
+    "__v": 0
+  },
+  {
+    "_id": "694809c2cd4393c7e4e56f8b",
+    "key": "No Data",
+    "target": "kn",
+    "translated": "ಡೇಟಾ ಇಲ್ಲ",
+    "__v": 0
+  }
+]
