@@ -89,8 +89,8 @@ export default function Contact() {
 
   return (
     <div>
-      <div className="max-w-2xl mx-auto mt-10 p-6 border shadow rounded bg-white mb-10">
-        <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
+      <div className="max-w-2xl mx-auto mt-6 md:mt-10 p-4 md:p-6 border shadow rounded bg-white mb-10">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-6 text-gray-800">
           {labels.contactUs}
         </h2>
 

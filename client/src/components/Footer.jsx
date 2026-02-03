@@ -30,10 +30,10 @@ export default function Footer() {
   }, [lang]);
 
   return (
-<footer className="bg-green-900 text-white py-6 flex flex-col w-full">
+    <footer className="bg-green-900 text-white py-6 flex flex-col w-full">
       {/* <footer className="bg-green-900 text-white py-6 fixed bottom-0 w-full"> */}
 
-      <div className="flex justify-around">
+      <div className="flex flex-col md:flex-row justify-around gap-8 text-center md:text-left px-4">
         <div>
           <h3 className="font-bold mb-2">{labels.quick}</h3>
           <p>{labels.home}</p>
@@ -53,6 +53,5 @@ export default function Footer() {
           <p>India</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>  );
 }

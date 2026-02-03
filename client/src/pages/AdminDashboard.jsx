@@ -34,7 +34,7 @@ export default function AdminDashboard() {
 
   return (
     <div>
-      <div className="max-w-5xl mx-auto mt-8 p-6 border rounded shadow">
+      <div className="max-w-5xl mx-auto mt-8 p-4 md:p-6 border rounded shadow">
         <h1 className="text-2xl font-bold">Admin Dashboard</h1>
         <button
   onClick={exportCache}
@@ -43,36 +43,38 @@ export default function AdminDashboard() {
   Export Offline Cache
 </button>
 
-        <table className="w-full mt-4 border">
-          <thead>
-            <tr className="bg-gray-200">
-              <th>Crop</th>
-              <th>Variety</th>
-              <th>Added By</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-
-          <tbody>
-            {records.map((rec) => (
-              <tr key={rec._id}>
-                <td>{rec.crop}</td>
-                <td>{rec.variety}</td>
-                <td>{rec.user?.email}</td>
-
-                <td>
-                  <button
-                    className="bg-red-600 text-white px-3 py-1 rounded"
-                    onClick={() => deleteRecord(rec._id)}
-                  >
-                    Delete
-                  </button>
-                </td>
+        <div className="overflow-x-auto">
+          <table className="w-full mt-4 border min-w-[600px]">
+            <thead>
+              <tr className="bg-gray-200">
+                <th className="p-2 text-left">Crop</th>
+                <th className="p-2 text-left">Variety</th>
+                <th className="p-2 text-left">Added By</th>
+                <th className="p-2 text-left">Actions</th>
               </tr>
-            ))}
-          </tbody>
+            </thead>
+
+            <tbody>
+              {records.map((rec) => (
+                <tr key={rec._id} className="border-t">
+                  <td className="p-2">{rec.crop}</td>
+                  <td className="p-2">{rec.variety}</td>
+                  <td className="p-2">{rec.user?.email}</td>
+
+                  <td className="p-2">
+                    <button
+                      className="bg-red-600 text-white px-3 py-1 rounded"
+                      onClick={() => deleteRecord(rec._id)}
+                    >
+                      Delete
+                    </button>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
  
-        </table>
+          </table>
+        </div>
       </div>
     </div>
   );

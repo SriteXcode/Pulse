@@ -38,21 +38,21 @@ export default function Home() {
         </div>
       )}
 
-      <div className="flex justify-between px-10 mt-8">
-        <div className="bg-gray-300 w-32 h-32 flex justify-center items-center">Logo 1</div>
-        <div className="bg-gray-300 w-32 h-32 flex justify-center items-center">Logo 2</div>
+      <div className="flex flex-col md:flex-row justify-center md:justify-between items-center gap-6 px-4 md:px-10 mt-4 md:mt-8">
+        <div className="bg-gray-300 w-32 h-32 flex justify-center items-center rounded-lg shadow-sm">Logo 1</div>
+        <div className="bg-gray-300 w-32 h-32 flex justify-center items-center rounded-lg shadow-sm">Logo 2</div>
       </div>
 
-      <h1 className="text-center mt-8 text-3xl font-bold">
+      <h1 className="text-center mt-6 md:mt-8 text-2xl md:text-3xl font-bold px-4">
         {labels.title}
       </h1>
 
-      <p className="text-center text-gray-700 mt-2">
+      <p className="text-center text-gray-700 mt-2 px-4">
         {labels.subtitle}
       </p>
 
       {!token && (
-        <div className="flex justify-center gap-10 mt-12">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-10 mt-8 md:mt-12 px-4 mb-8">
           <AuthCard title={labels.register} onClick={openRegister} />
           <AuthCard title={labels.login} onClick={openLogin} />
         </div>

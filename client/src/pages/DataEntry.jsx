@@ -74,11 +74,11 @@ export default function DataEntry() {
 
   return (
     <div>
-      <div className="max-w-4xl mx-auto mt-8 p-6 border rounded shadow">
+      <div className="max-w-4xl mx-auto mt-8 p-4 md:p-6 border rounded shadow">
         <h2 className="text-2xl font-bold text-center mb-6">Data Entry Form</h2>
 
         <form className="space-y-4" onSubmit={submit}>
-          <div className="flex gap-4">
+          <div className="flex flex-col md:flex-row gap-4">
             <input 
               name="crop" 
               value={data.crop} 
@@ -97,46 +97,48 @@ export default function DataEntry() {
             />
           </div>
 
-          <table className="w-full border mt-4">
-            <thead>
-              <tr className="bg-gray-200">
-                <th className="p-2">Attribute</th>
-                <th>Avg</th>
-                <th>SD</th>
-              </tr>
-            </thead>
+          <div className="overflow-x-auto">
+            <table className="w-full border mt-4 min-w-[600px]">
+              <thead>
+                <tr className="bg-gray-200">
+                  <th className="p-2">Attribute</th>
+                  <th>Avg</th>
+                  <th>SD</th>
+                </tr>
+              </thead>
 
-            <tbody>
-              {Object.keys(attributeMap).map((label) => {
-                const key = attributeMap[label];
-                return (
-                  <tr key={key}>
-                    <td className="border p-2">{label}</td>
-                    <td className="border">
-                      <input 
-                        type="number"
-                        step="any"
-                        value={data.attributes[key].avg}
-                        onChange={(e) => handleChange(key, 'avg', e.target.value)}
-                        className="w-full p-1" 
-                      />
-                    </td>
-                    <td className="border">
-                      <input 
-                        type="number"
-                        step="any"
-                        value={data.attributes[key].sd}
-                        onChange={(e) => handleChange(key, 'sd', e.target.value)}
-                        className="w-full p-1" 
-                      />
-                    </td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
+              <tbody>
+                {Object.keys(attributeMap).map((label) => {
+                  const key = attributeMap[label];
+                  return (
+                    <tr key={key}>
+                      <td className="border p-2">{label}</td>
+                      <td className="border">
+                        <input 
+                          type="number"
+                          step="any"
+                          value={data.attributes[key].avg}
+                          onChange={(e) => handleChange(key, 'avg', e.target.value)}
+                          className="w-full p-1" 
+                        />
+                      </td>
+                      <td className="border">
+                        <input 
+                          type="number"
+                          step="any"
+                          value={data.attributes[key].sd}
+                          onChange={(e) => handleChange(key, 'sd', e.target.value)}
+                          className="w-full p-1" 
+                        />
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
 
-          <button className="bg-green-600 text-white px-6 py-2 rounded mt-4">
+          <button className="bg-green-600 text-white px-6 py-2 rounded mt-4 w-full md:w-auto">
             Submit
           </button>
         </form>

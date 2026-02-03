@@ -27,7 +27,7 @@ export default function AdminMessages() {
 
   return (
     <div>
-      <div className="max-w-6xl mx-auto mt-8 p-6 border rounded shadow bg-white min-h-screen">
+      <div className="max-w-6xl mx-auto mt-8 p-4 md:p-6 border rounded shadow bg-white min-h-screen">
         <h1 className="text-2xl font-bold mb-6">Contact Messages</h1>
 
         {loading ? (

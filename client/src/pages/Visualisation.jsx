@@ -247,7 +247,7 @@ export default function Visualisation() {
 
       {/* FILTERS */}
       <div className="flex flex-wrap gap-4 mb-6 items-center">
-        <div className="flex-1 min-w-[300px] relative">
+        <div className="flex-1 w-full md:w-auto md:min-w-[300px] relative">
           <input
             type="text"
             placeholder={labels.searchPlaceholder}

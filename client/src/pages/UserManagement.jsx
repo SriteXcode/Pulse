@@ -88,7 +88,7 @@ export default function UserManagement() {
   return (
     <div>
 
-      <div className="max-w-6xl mx-auto mt-8 p-6 border rounded shadow bg-white">
+      <div className="max-w-6xl mx-auto mt-8 p-4 md:p-6 border rounded shadow bg-white">
         <h1 className="text-2xl font-bold mb-4">User Management</h1>
 
         <div className="overflow-x-auto">

@@ -43,7 +43,7 @@ export default function UserManual() {
   }, [lang]);
 
   return (
-    <div className="max-w-4xl mx-auto mt-10 p-8 bg-white shadow-lg rounded-lg mb-10">
+    <div className="max-w-4xl mx-auto mt-10 p-4 md:p-8 bg-white shadow-lg rounded-lg mb-10">
       <h1 className="text-3xl font-bold text-green-800 mb-6 border-b pb-2">{content.title}</h1>
       
       <div className="mb-8">
